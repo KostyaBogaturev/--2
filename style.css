@@ -1,0 +1,42 @@
+#text3{
+    color: red;
+}
+
+.block{
+    background-color: silver;
+    max-width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.relativeBlock{
+    position: relative;
+    background-color: silver;
+    max-width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.absolutePosition{
+    background-color: tan;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+
+.image{
+    float: right;
+
+    width: 400px;
+}
+
+input[type=radio]{
+    width: 10px;
+}
+input[type=radio]:checked{
+    width: 30px;
+    cursor: pointer;
+}
+.flexDiv{
+    display: flex;
+}
